@@ -1,1 +1,2 @@
 RewriteEngine On
+RewriteRule ^workstation/(.*)$ _workstation/$1 [L]
