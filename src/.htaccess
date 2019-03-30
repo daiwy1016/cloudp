@@ -1,2 +1,3 @@
 RewriteEngine On
-RewriteRule ^workstation/(.*)$ _workstation/$1 [L]
+RewriteRule ^manga(.*)$ _manga/root$1 [L]
+RewriteRule ^workstation(.*)$ _workstation$1 [L]
